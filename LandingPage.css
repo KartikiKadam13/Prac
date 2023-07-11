@@ -1,0 +1,192 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   min-height: 100vh;
+   min-width: 100%;
+}
+.page1{
+    min-height: 100vh; 
+    width: 95rem;
+    background-color: #F1F6F9;
+ }
+ .page2{
+    min-height: 100vh;
+    width: 95rem;
+    background-color: #F1F6F9;
+ }
+.container4{
+    height: 42rem;
+    min-width: 90rem;
+    background-color: #394867;
+    border-radius: 0rem  0rem 2rem 2rem;
+    margin-left: 3%;
+    color: aliceblue;
+    position: absolute;  
+}
+.container2{
+    height: 42rem;
+    width: 25rem;
+    background-color: #212A3E;
+    border-radius: 0rem  0rem 2rem 2rem;
+    position: absolute;
+    margin-left: auto;
+}
+.container2 .profile{
+    height: 20rem;
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 18rem;
+    border: 1rem double #394867 ;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+.container2 .bg{
+    height: 12rem;
+    position: absolute;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    padding: 1rem;
+}
+.bg1 .image{
+    position: absolute;
+    height: 30rem;
+    margin-left: 4.8rem;
+    margin-top: 5.2rem;
+    border-radius: 2rem  0rem 0rem 2rem;
+    display: block;
+}
+.menu{
+    order: 2;
+    display: flex;
+    float: right;
+}
+.menu li{
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-family:"Bahnschrift";
+    float: right;
+}
+.navbar a{
+    color:#fffafa;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+.navbar a:hover{
+    color: #80f0fb;
+}
+.container3{
+    margin-top: 10rem;
+    margin-left: 35rem;
+    height: 20rem;
+    width: 50rem;
+    font-family:"Bahnschrift";
+}
+.container3 p{
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+}
+.code{
+    color: #80f0fb;
+}
+.click{
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 1rem;
+    background-color: #F1F6F9;
+    font-size: 1rem;
+    font-family:"Bahnschrift";
+    cursor: pointer;
+    color: black;
+    text-decoration: none ;
+}
+.click:hover{
+    background-color: #80f0fb;
+}
+.click a:link{
+    text-decoration: none;
+    color: black;
+}
+.container5{
+    min-height: 42rem;
+    min-width: 90rem;
+    background-color: #394867;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+.education{
+    height: 35rem;
+    width: 20rem;
+    margin-top: 3rem;
+    background-color: #212A3E;
+    margin: 3rem;  
+    position: absolute;
+    border-radius: 2rem;
+}
+.small{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 3rem;
+    background-color: #212A3E;
+    margin: 3rem;  
+    border-radius: 2rem;
+}
+@media only screen and (max-width: 700px) {
+  body{
+    background-color: #F1F6F9;
+  }
+  .container4{
+    height: 68rem;
+    min-width: 60rem;
+    margin-left: 20rem;
+    margin-right: auto;
+    margin-bottom: 10rem;
+}
+.container2{
+    height: 20rem;
+    width: 60rem;
+}
+.container2 .profile{
+    height: 15rem;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 50%;
+    border: 1rem double #394867 ;
+    border-radius: 1.5rem;
+    padding: 1rem;
+
+}
+.container3{
+    margin-top: 30rem;
+    margin-left: 5rem;
+    height: 20rem;
+    width: 50rem;
+    font-family:"Bahnschrift";
+}
+.container3 p{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+.bg1{
+     display: none;
+}
+.page2{
+    margin-top: 30rem;
+}
+.container5{
+    min-height: 65rem;
+    min-width: 60rem;
+    background-color: #394867;
+    margin-left: 20rem;
+    margin-right: auto;
+
+}
+}
